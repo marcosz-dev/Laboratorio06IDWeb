@@ -42,9 +42,9 @@
                     type="text" 
                     id="documento" 
                     name="documento" 
-                    placeholder="DNI/Cédula"
-                    pattern="[0-9]{6,12}"
-                    title="Ingrese solo números (6 a 12 dígitos)"
+                    placeholder="DNI"
+                    pattern="[0-9]{8}"
+                    title="Ingrese solo números"
                     required>
             </div>
             <br>
@@ -78,13 +78,13 @@
             
             <div>
                 <label>Horarios disponibles:</label><br>
-                <input type="checkbox" id="manana" name="horario[]" value="Manana">
-                <label for="manana">Mañana</label>
+                <input type="checkbox" id="mañana" name="horario" value="Mañana">
+                <label for="mañana">Mañana</label>
                 
-                <input type="checkbox" id="tarde" name="horario[]" value="Tarde">
+                <input type="checkbox" id="tarde" name="horario" value="Tarde">
                 <label for="tarde">Tarde</label>
                 
-                <input type="checkbox" id="noche" name="horario[]" value="Noche">
+                <input type="checkbox" id="noche" name="horario" value="Noche">
                 <label for="noche">Noche</label>
             </div>
             <br>
